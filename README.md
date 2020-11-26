@@ -1,4 +1,4 @@
-# ST - Suckless Keybinds
+# ST - Suckless Terminal Keybinds
 
 ## Scroll
 
