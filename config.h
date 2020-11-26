@@ -208,6 +208,23 @@ static Shortcut shortcuts[] = {
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
+	{ MODKEY,               XK_l,           zoom,           {.f = +1} },
+	{ MODKEY,               XK_h,           zoom,           {.f = -1} },
+	{ MODKEY|ShiftMask,     XK_L,           zoom,           {.f = +2} },
+	{ MODKEY|ShiftMask,     XK_H,           zoom,           {.f = -2} },
+	{ MODKEY,               XK_semicolon,   zoomreset,      {.f =  0} },
+	{ MODKEY,               XK_y,           clipcopy,       {.i =  0} },
+	{ MODKEY,               XK_p,           clippaste,      {.i =  0} },
+	{ MODKEY,               XK_Page_Up,     kscrollup,      {.i = -1} },
+	{ MODKEY,               XK_Page_Down,   kscrolldown,    {.i = -1} },
+	{ MODKEY,               XK_u,           kscrollup,      {.i = -1} },
+	{ MODKEY,               XK_d,           kscrolldown,    {.i = -1} },
+	{ MODKEY,               XK_w,           kscrollup,      {.i = -1} },
+	{ MODKEY,               XK_i,           kscrolldown,    {.i = -1} },
+	{ MODKEY,               XK_k,           kscrollup,      {.i =  1} },
+	{ MODKEY,               XK_j,           kscrolldown,    {.i =  1} },
+	{ MODKEY,               XK_Up,          kscrollup,      {.i =  1} },
+	{ MODKEY,               XK_Down,        kscrolldown,    {.i =  1} },
 };
 
 /*
