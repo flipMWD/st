@@ -10,7 +10,7 @@ static char *font2[] = {
 	"FontAwesome:style=Regular:pixelsize=14:antialias=true:autohint=true",
 };
 
-static int borderpx = 10;
+static int borderpx = 8;
 
 /*
  * What program is execed by st depends of these precedence rules:
