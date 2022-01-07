@@ -8,6 +8,7 @@
 static char *font = "Source Code Pro:style=Medium:pixelsize=15:antialias=true:autohint=true";
 static char *font2[] = {
 	"FontAwesome:style=Regular:pixelsize=14:antialias=true:autohint=true",
+	"JoyPixels:style=Regular:pixelsize=14:antialias=true:autohint=true",
 };
 
 static int borderpx = 8;
